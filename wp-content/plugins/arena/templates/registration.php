@@ -46,6 +46,9 @@
 ?>
 <div class="row">
     <div class="col-md-8">
+    <?php 
+	echo "<b>error code $error</b>" ;
+    ?>
     <form action="<?php $_SERVER['REQUEST_URI'] ?>" method="post" >
 	
 	<div class="form-group">

@@ -31,7 +31,13 @@ function registration()
     $nick = "";    
     $pass1 = "";
     $pass2 = "";
-
+    
+    $error = 0 ;
+    /*	
+	1 - pass != pass2
+	2 - wrong email
+     
+     */
     if(isset($_POST[registration]))
     {
 
@@ -39,8 +45,22 @@ function registration()
 	$email = ( isset($_POST['email'])) ? htmlspecialchars($_POST['email']) : "";
 	$pass1 = ( isset($_POST['pass1'])) ? htmlspecialchars($_POST['pass1']) : "";
 	$pass2 = ( isset($_POST['pass2'])) ? htmlspecialchars($_POST['pass2']) : "";
-	
+
+	if(!isset($pass1) || $pass1 != $pass2 )
+	{
+	    $error = 1;
+	}
+	elseif(!filter_var($email, FILTER_VALIDATE_EMAIL))
+	{
+	    $error = 2;
+	}
+	else
+	{
+	    /*good*/
+	}
+		
     }
+    
 
     require_once('templates/registration.php' );
 
