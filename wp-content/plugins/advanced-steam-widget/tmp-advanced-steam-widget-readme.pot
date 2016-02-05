@@ -1,0 +1,294 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Advanced Steam Widget"
+msgstr ""
+
+#. Short description.
+msgid "Displays Steam gaming statistics in a widget with increased flexibility, stability, and performance"
+msgstr ""
+
+#. Screenshot description.
+msgid "Profile Only preset"
+msgstr ""
+
+#. Screenshot description.
+msgid "Profile Small preset"
+msgstr ""
+
+#. Screenshot description.
+msgid "Profile + Games preset"
+msgstr ""
+
+#. Screenshot description.
+msgid "Games Only preset"
+msgstr ""
+
+#. Screenshot description.
+msgid "Games Grid preset"
+msgstr ""
+
+#. Screenshot description.
+msgid "Widget options"
+msgstr ""
+
+#. Found in description list item.
+msgid "Profile Only"
+msgstr ""
+
+#. Found in description list item.
+msgid "Profile Small"
+msgstr ""
+
+#. Found in description list item.
+msgid "Profile + Games"
+msgstr ""
+
+#. Found in description list item.
+msgid "Games Only"
+msgstr ""
+
+#. Found in description list item.
+msgid "Games Grid"
+msgstr ""
+
+#. Found in description list item.
+msgid "Full-page Profile"
+msgstr ""
+
+#. Found in description list item.
+msgid "Game Name"
+msgstr ""
+
+#. Found in description list item.
+msgid "Steam URL"
+msgstr ""
+
+#. Found in description list item.
+msgid "Player Stats URL"
+msgstr ""
+
+#. Found in description list item.
+msgid "Icon URL (32)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Small Logo URL (120 x 45)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Large Logo URL (184 x 69)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Time Played Last Two Weeks"
+msgstr ""
+
+#. Found in description list item.
+msgid "Time Played Total"
+msgstr ""
+
+#. Found in description list item.
+msgid "Steam Username"
+msgstr ""
+
+#. Found in description list item.
+msgid "64-bit Steam ID"
+msgstr ""
+
+#. Found in description list item.
+msgid "Status"
+msgstr ""
+
+#. Found in description list item.
+msgid "Profile URL"
+msgstr ""
+
+#. Found in description list item.
+msgid "Avatar Icon URL (32)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Avatar Medium URL (64)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Avatar Large URL (184)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin will add a widget that displays your Steam gaming statistics. It employs caching to keep your site's performance up and make it less susceptible to Steam outages or errors."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The widget comes with the following preset looks (see screenshots) that you can easily switch between:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can also customize the widget to suit your needs by editing the templates, which support the following attributes pulled from your Steam profile:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Copy the contents of this archive to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the 'Appearance &gt; Widgets' menu and add 'Steam Widget' to a sidebar"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Expand the widget's options, enter a Steam Profile ID, and save"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Steam data update is done using cron now instead of at intervals on widget display. should remove any possible data propagation delays for visitors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added timer displays for last and next update in widget options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added additional error checking and reporting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added cleanup on plugin deactivation and uninstall"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added profile URL and box-sizing CSS to all presets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed CURL redirect issue involving PHP-deprecated safe mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed WP-deprecated widget constructor error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed a PHP notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "various optimizations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "workaround for Steam bug where hours played last two weeks is reported as 0.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed case where stats conditional was true when there were no stats"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added two new presets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added basic shortcode support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added ability to not have a widget title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added profile URL pattern"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added conversion for Steam IDs to Profile IDs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "various template tweaks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added four preset templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added conditional patterns for stats and user status"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added stats URL pattern for games"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "simplified widget options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed minor bug with curl (thanks Andrewsk1)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "a few default template fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "more error checking for the Steam API output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First public release"
+msgstr ""
+
+#. Found in faq header.
+msgid "I put the widget into my sidebar but nothing is displayed on my site."
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I find my Steam Profile ID?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I customize the look of my widget?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the shortcode for?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "First, make sure you put your Steam Profile ID in the widget's settings."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Check that your Steam profile is set to public."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Try saving the widget's settings a few times (forcing a data refresh) in case Steam was just experiencing an intermittent problem."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In either Steam itself or on the Steam website, go to the upper-right where it says \"your account\" and then click on \"View Profile\". The URL on the page will either be in the format http://steamcommunity.com/id/XXX or http://steamcommunity.com/profiles/XXX where your Steam Profile ID is XXX. For the latter, it will be a unique 17-digit number. If you want to use the former, which has a prettier URL, go to \"Edit Profile\" and enter a \"Custom URL\"."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In the widget options, change the preset to \"Custom\". The two template boxes will appear. The \"Game Template\" is used to output every game played recently and the \"Main Template\" is for everything else. To show the game template in the main template, you must use the pattern %GAMES_TWOWEEKS% in the main template."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use \"Toggle Show Patterns\" below each template to show the patterns that each template supports. These patterns are replaced with data from your Steam profile."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Patterns that start with \"IF_\" are conditionals that can output based on whether or not some condition is true. For example, for IF_GAME_STATS{XXX}, if a game supports stats, \"XXX\" is output, otherwise nothing is output. Conditionals can also be followed with an \"ELSE\" pattern that outputs if the preceding conditional was false. For example, IF_GAME_STATS{%GAME_STATS_URL%}ELSE{%GAME_URL%} will output the URL for your game stats if the game supports stats, otherwise it will output the URL for the game's Steam community page."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When you save the widget's settings, it will show you a shortcode that you can use to display that widget in pages or posts. Just copy and paste the code where you want the widget. It's recommended to use the full-page preset with the shortcode. You can move the widget into the \"Inactive Widgets\" area when only using the shortcode."
+msgstr ""
